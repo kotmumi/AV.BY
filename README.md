@@ -3,7 +3,7 @@
 <div align="center">
   
 ![Swift](https://img.shields.io/badge/Swift-5.9-orange.svg)
-![iOS](https://img.shields.io/badge/iOS-17.0+-blue.svg)
+![iOS](https://img.shields.io/badge/iOS-15.0+-blue.svg)
 ![SwiftUI](https://img.shields.io/badge/SwiftUI-5.0-blue.svg)
 ![Firebase](https://img.shields.io/badge/Firebase-10.0+-yellow.svg)
 ![Architecture](https://img.shields.io/badge/Architecture-MVVM-green.svg)
@@ -17,8 +17,6 @@
 
 - [О проекте](#-о-проекте)
 - [Технологии](#-технологии)
-- [Архитектура](#-архитектура)
-- [Установка](#-установка)
 - [Скриншоты](#-скриншоты)
 - [Разработка](#-разработка)
 - [Команда](#-команда)
@@ -61,24 +59,83 @@ AV.BY - это iOS-приложение, являющееся клоном по�
 - **Swift Package Manager** - менеджер зависимостей
 - **Swift Concurrency** - современные инструменты для параллелизма
 
-📱 Скриншоты
+## 📱 Скриншоты
 
 <div align="center">
-Главный экран
-  
-<img width="200" height="430" alt="IMG_5165" src="https://github.com/user-attachments/assets/96ac7b72-f89a-47e4-af5f-9c9bf46ed717" />
-Каталог автомобилей
 
-<img width="200" height="430" alt="IMG_5170" src="https://github.com/user-attachments/assets/3cf8cc65-3d1b-42a2-b0c7-44f28530046a" />
-Избранное
+### Основные экраны приложения
 
-<img width="200" height="430" alt="IMG_5166" src="https://github.com/user-attachments/assets/1b24250e-9716-427e-ab43-d6574438356e" />
-Создание объявления
+<table>
+  <tr>
+    <td align="center" width="200">
+      <strong>🏠 Главный экран</strong><br/>
+      <img width="200" height="430" alt="Главный экран" src="https://github.com/user-attachments/assets/96ac7b72-f89a-47e4-af5f-9c9bf46ed717" />
+      <br/>Лента объявлений и быстрый поиск
+    </td>
+    <td align="center" width="200">
+      <strong>🔍 Каталог</strong><br/>
+      <img width="200" height="430" alt="Каталог автомобилей" src="https://github.com/user-attachments/assets/3cf8cc65-3d1b-42a2-b0c7-44f28530046a" />
+      <br/>Расширенный поиск и фильтрация
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="200">
+      <strong>❤️ Избранное</strong><br/>
+      <img width="200" height="430" alt="Избранное" src="https://github.com/user-attachments/assets/1b24250e-9716-427e-ab43-d6574438356e" />
+      <br/>Сохраненные автомобили
+    </td>
+    <td align="center" width="200">
+      <strong>➕ Создание</strong><br/>
+      <img width="200" height="430" alt="Создание объявления" src="https://github.com/user-attachments/assets/99b4c23f-fa22-45b7-b838-28796169ea5d" />
+      <br/>Публикация нового объявления
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="200">
+      <strong>👤 Профиль</strong><br/>
+      <img width="200" height="430" alt="Профиль пользователя" src="https://github.com/user-attachments/assets/49b6975b-0f34-4aca-a470-31387d59e44a" />
+      <br/>Личный кабинет и настройки
+    </td>
+    <td align="center" width="200">
+      <strong>⚙️ Детали</strong><br/>
+      <div style="width: 200px; height: 430px; background: #f0f0f0; display: flex; align-items: center; justify-content: center; border-radius: 10px;">
+        <span style="color: #666;">Скоро...</span>
+      </div>
+      <br/>Детальная страница автомобиля
+    </td>
+  </tr>
+</table>
 
-<img width="200" height="430" alt="IMG_5167" src="https://github.com/user-attachments/assets/99c4c23f-fa22-45b7-b838-28796169ea5d" />
-Профиль пользователя
+---
 
-<img width="200" height="430" alt="IMG_5169" src="https://github.com/user-attachments/assets/49b6975b-0f34-4aca-a470-31387d59e44a" />
+### Поток работы с приложением
+
+<table>
+  <tr>
+    <td align="center">
+      <strong>1. Поиск</strong><br/>
+      <img width="180" height="390" alt="Поиск" src="https://github.com/user-attachments/assets/96ac7b72-f89a-47e4-af5f-9c9bf46ed717" />
+      <br/>Найдите автомобиль мечты
+    </td>
+    <td align="center">
+      <strong>2. Просмотр</strong><br/>
+      <img width="180" height="390" alt="Просмотр" src="https://github.com/user-attachments/assets/3cf8cc65-3d1b-42a2-b0c7-44f28530046a" />
+      <br/>Изучите детали объявления
+    </td>
+    <td align="center">
+      <strong>3. Сохранение</strong><br/>
+      <img width="180" height="390" alt="Сохранение" src="https://github.com/user-attachments/assets/1b24250e-9716-427e-ab43-d6574438356e" />
+      <br/>Добавьте в избранное
+    </td>
+    <td align="center">
+      <strong>4. Публикация</strong><br/>
+      <img width="180" height="390" alt="Публикация" src="https://github.com/user-attachments/assets/99b4c23f-fa22-45b7-b838-28796169ea5d" />
+      <br/>Разместите своё объявление
+    </td>
+  </tr>
+</table>
+
+</div>
 
 🚀 Разработка
 
@@ -91,6 +148,22 @@ AV.BY - это iOS-приложение, являющееся клоном по�
 Публикация объявлений
 Загрузка изображений
 Система избранного
-Уведомления
-Оптимизация производительности
-Локализация
+
+👥 Команда
+
+<div align="center">
+Разработчик
+
+<table> <tr> <td align="center"> <a href="https://github.com/kotmumi"> <img src="https://avatars.githubusercontent.com/kotmumi" width="100px;" alt="Кирилл Котыло"/><br/> <sub><b>Кирилл Котыло</b></sub> </a><br/> <sub>iOS Developer</sub> </td> </tr> </table></div>
+
+📞 Контакты
+
+Кирилл Котыло - @kotmumi
+
+Email: kirillkotylo@gmail.com
+Telegram: @kotylo
+LinkedIn: linkedin.com/in/kirill-kotylo/
+<div align="center">
+⭐ Если проект вам понравился, не забудьте поставить звезду!
+
+</div> ```
