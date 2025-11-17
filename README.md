@@ -67,51 +67,6 @@ AV.BY - это iOS-приложение, являющееся клоном по�
 
 <table>
   <tr>
-    <td align="center" width="200">
-      <strong>🏠 Главный экран</strong><br/>
-      <img width="200" height="430" alt="Главный экран" src="https://github.com/user-attachments/assets/96ac7b72-f89a-47e4-af5f-9c9bf46ed717" />
-      <br/>Лента объявлений и быстрый поиск
-    </td>
-    <td align="center" width="200">
-      <strong>🔍 Каталог</strong><br/>
-      <img width="200" height="430" alt="Каталог автомобилей" src="https://github.com/user-attachments/assets/3cf8cc65-3d1b-42a2-b0c7-44f28530046a" />
-      <br/>Расширенный поиск и фильтрация
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="200">
-      <strong>❤️ Избранное</strong><br/>
-      <img width="200" height="430" alt="Избранное" src="https://github.com/user-attachments/assets/1b24250e-9716-427e-ab43-d6574438356e" />
-      <br/>Сохраненные автомобили
-    </td>
-    <td align="center" width="200">
-      <strong>➕ Создание</strong><br/>
-      <img width="200" height="430" alt="Создание объявления" src="https://github.com/user-attachments/assets/99b4c23f-fa22-45b7-b838-28796169ea5d" />
-      <br/>Публикация нового объявления
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="200">
-      <strong>👤 Профиль</strong><br/>
-      <img width="200" height="430" alt="Профиль пользователя" src="https://github.com/user-attachments/assets/49b6975b-0f34-4aca-a470-31387d59e44a" />
-      <br/>Личный кабинет и настройки
-    </td>
-    <td align="center" width="200">
-      <strong>⚙️ Детали</strong><br/>
-      <div style="width: 200px; height: 430px; background: #f0f0f0; display: flex; align-items: center; justify-content: center; border-radius: 10px;">
-        <span style="color: #666;">Скоро...</span>
-      </div>
-      <br/>Детальная страница автомобиля
-    </td>
-  </tr>
-</table>
-
----
-
-### Поток работы с приложением
-
-<table>
-  <tr>
     <td align="center">
       <strong>1. Поиск</strong><br/>
       <img width="180" height="390" alt="Поиск" src="https://github.com/user-attachments/assets/96ac7b72-f89a-47e4-af5f-9c9bf46ed717" />
@@ -129,7 +84,7 @@ AV.BY - это iOS-приложение, являющееся клоном по�
     </td>
     <td align="center">
       <strong>4. Публикация</strong><br/>
-      <img width="180" height="390" alt="Публикация" src="https://github.com/user-attachments/assets/99b4c23f-fa22-45b7-b838-28796169ea5d" />
+      <img width="200" height="430" alt="IMG_5172" src="https://github.com/user-attachments/assets/5d033c62-ed91-4947-8310-b3cd2eb3687c" />
       <br/>Разместите своё объявление
     </td>
   </tr>
@@ -137,7 +92,7 @@ AV.BY - это iOS-приложение, являющееся клоном по�
 
 </div>
 
-🚀 Разработка
+## 🚀 Разработка
 
 Текущий статус
 
@@ -149,21 +104,28 @@ AV.BY - это iOS-приложение, являющееся клоном по�
 Загрузка изображений
 Система избранного
 
-👥 Команда
+## 👥 Команда
 
 <div align="center">
 Разработчик
 
 <table> <tr> <td align="center"> <a href="https://github.com/kotmumi"> <img src="https://avatars.githubusercontent.com/kotmumi" width="100px;" alt="Кирилл Котыло"/><br/> <sub><b>Кирилл Котыло</b></sub> </a><br/> <sub>iOS Developer</sub> </td> </tr> </table></div>
 
-📞 Контакты
+## 📞 Контакты
 
-Кирилл Котыло - @kotmumi
-
-Email: kirillkotylo@gmail.com
-Telegram: @kotylo
-LinkedIn: linkedin.com/in/kirill-kotylo/
 <div align="center">
+
+### Связаться со мной
+
+| Контакт | Ссылка | Описание |
+|:--------|:-------|:---------|
+| **📧 Email** | [`kirillkotylo@gmail.com`](mailto:kirillkotylo@gmail.com) | Основной способ связи |
+| **📱 Telegram** | [`@kotylo`](https://t.me/kotylo) | Быстрые сообщения |
+| **💼 LinkedIn** | [`Kirill Kotylo`](https://linkedin.com/in/kirill-kotylo) | Профессиональный профиль |
+| **🐙 GitHub** | [`@kotmumi`](https://github.com/kotmumi) | Исходный код проектов |
+
+</div>
+
 ⭐ Если проект вам понравился, не забудьте поставить звезду!
 
-</div> ```
+</div> 
